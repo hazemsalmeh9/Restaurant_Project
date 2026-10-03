@@ -1,0 +1,174 @@
+.wide_hollow_button {
+    width: 308px;
+    height: 46px;
+    padding: 12px 24px;
+    background-color: var(--white-bg);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dark-green);
+}
+
+.zad_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 20px;
+}
+
+.fa-bars,
+button {
+    font-size: 20px;
+    border: none;
+    width: 18px;
+    height: 12px;
+}
+
+.zad_header h1 {
+    font-weight: 600;
+    font-size: 24px;
+    position: relative;
+    top: 5px;
+}
+
+.fa-bell,
+button {
+    font-size: 20px;
+    border: none;
+    width: 18px;
+    height: 12px;
+}
+
+.availabled_meals_section h1 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-right: 30px;
+}
+
+.availabled_meals_section p {
+    font-size: 16px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+.meals_card {
+    gap: 16px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.Rice_chicken_meal_card,
+.baked_goods_pies_card,
+.mixed_family_meals_card {
+    width: 358px;
+    height: 236px;
+    gap: 20px;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: var(--white-bg);
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+
+}
+
+.top_meal_section,
+.meal25,
+.oclock,
+.meals_location {
+    display: flex;
+}
+
+.fa-bowl-rice,
+.fa-bread-slice,
+.fa-utensils {
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.fa-bowl-rice,
+.fa-utensils {
+    background-color: var(--green-bg);
+}
+
+.fa-bread-slice {
+    background: rgba(142, 78, 20, 0.1);
+}
+
+.meals_text h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--dark-green);
+    line-height: 2.5;
+}
+
+.meal25 {
+    align-items: center;
+    gap: 5px;
+    width: 115px;
+    height: 23px;
+    padding-top: 2px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    gap: 6px;
+    border-radius: 6px;
+    background-color: var(--green-bg);
+}
+
+.meal25 p{
+    font-size: 14px;
+    color: var(--dark-green);
+    font-weight: 500;
+}
+
+.meal25 .fa-box-archive{
+    font-size: 12px;
+}
+
+.box_hr{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    opacity: .3;
+    margin-top: 25px;
+}
+
+.top_meal_section{
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.bottom_meal_section{
+    display: flex;
+    gap: 25px;
+}
+
+.oclock,
+.meals_location
+{
+    gap: 5px;
+    align-items: center;
+}
+
+.bottom_meal_section{
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.bottom_meal_section p{
+    font-size: 14px;
+}
+

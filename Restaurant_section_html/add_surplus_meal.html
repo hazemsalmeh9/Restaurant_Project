@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Surplus Meal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="../Beneficiary_css/global.css">
+    <link rel="stylesheet" href="../Restaurant_section_css/add_surplus_meal.css">
+</head>
+
+<body>
+    <!--------------------- الهيدر ---------------------->
+    <header>
+        <a href="Restaurant_section_home.html">
+            <button class="back_button">
+                <i class="fa-solid fa-arrow-right" style="color: rgba(63, 73, 71, 1);"></i>
+            </button>
+        </a>
+        <hr class="thin_line">
+    </header>
+    <main class="main_content">
+        <div class="add_surplus_meal_page">
+            <div class="add_surplus_meal_card">
+                <div class="meal_name">
+                    <h3>اسم الوجبة</h3>
+                    <input type="text" class="custom_input" placeholder="مثال: وجبة أرز ودجاج">
+                </div>
+                <div class="quantity_available">
+                    <h3>الكمية المتوفرة</h3>
+                    <div class="input_meal">
+                        <input type="text" class="custom_meal" placeholder="25">
+                        <span>وجبة</span>
+                    </div>
+                </div>
+                <div class="pickup_time">
+                    <h3>وقت الاستلام</h3>
+                    <div class="input_time">
+                        <input type="datetime-local" class="custom_time">
+                        <i class="fa-regular fa-clock" style="color: rgba(63, 73, 71, 1);"></i>
+                    </div>
+                </div>
+                <div class="location">
+                    <h3>الموقع</h3>
+                    <div class="input_location">
+                        <input type="text" placeholder="حدد الموقع" class="custom_location">
+                        <i class="fa-solid fa-location-dot" style="color: rgba(63, 73, 71, 1);"></i>
+                    </div>
+                </div>
+                <div class="additional_notes">
+                    <h3>ملاحظات إضافية</h3>
+                    <textarea name="" id="" placeholder="أضف أي تفاصيل أخرى هنا..."></textarea>
+                </div>
+            </div>
+            <a href="res_review_publish.html">
+                <button class="serving_meal">نشر الوجبة</button>
+            </a>
+
+        </div>
+    </main>
+
+</body>
+
+</html>

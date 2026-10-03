@@ -1,0 +1,262 @@
+.reservations_page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.sections {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.reservations_card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.green_section {
+    border-radius: 9999px;
+    border: solid 1px var(--light-green);
+    background-color: var(--light-green);
+    color: var(--white-bg);
+    padding: 8px 16px;
+    font-family: Tajawal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.1);
+}
+
+.white_section {
+    border-radius: 9999px;
+    border: solid 1px rgba(191, 201, 198, 1);
+    background-color: var(--white-bg);
+    color: rgba(63, 73, 71, 1);
+    padding: 8px 16px;
+    font-family: Tajawal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.1);
+}
+
+.orange_card,
+.green_card,
+.gray_card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-bg);
+    width: 100%;
+    gap: 8px;
+    border-radius: 12px;
+    border: solid 1px rgba(225, 227, 225, 1);
+    padding: 20px;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.orange_overlay {
+    position: absolute;
+    right: 0;
+    background-color: var(--side-color);
+    width: 8px;
+    height: 100%;
+    top: 0;
+}
+
+span {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(111, 121, 119, 1);
+    left: 20px;
+    position: absolute;
+}
+
+.meal_name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+
+.fa-utensils {
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--dark-green);
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pickup_time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.top_section {
+    border-bottom: solid 1px rgba(225, 227, 225, 1);
+    margin-bottom: 2px;
+}
+
+.note {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fa-shield-halved {
+    font-size: 15px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(111, 121, 119, 1);
+}
+
+.verification {
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--light-green);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: var(--white-bg);
+    padding: 10px;
+}
+
+.green_overlay {
+    position: absolute;
+    right: 0;
+    background-color: var(--light-green);
+    width: 8px;
+    height: 100%;
+    top: 0;
+}
+
+.new {
+    display: flex;
+    width: 56px;
+    gap: 4px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border-radius: 2px;
+    background-color: rgba(230, 233, 231, 1);
+    right: 20px;
+    position: absolute;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.fa-circle {
+    font-size: 10px;
+}
+
+.awaiting {
+    width: 100%;
+    opacity: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: solid 1px rgba(111, 121, 119, 1);
+    font-family: Tajawal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(111, 121, 119, 1);
+}
+
+.gray_overlay {
+    position: absolute;
+    right: 0;
+    background-color: rgba(111, 121, 119, 1);
+    width: 8px;
+    height: 100%;
+    top: 0;
+}
+
+.gray_card {
+    opacity: 50%;
+    margin-bottom: 20px;
+}
+
+.done {
+    display: flex;
+    background-color: rgba(242, 244, 242, 1);
+    width: 66px;
+    gap: 3px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    border-radius: 2px;
+
+}
+
+.meal_name_op {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.gray_card h2 {
+    color: rgba(63, 73, 71, 1);
+}
+
+.adding {
+    width: 56px;
+    height: 56px;
+    opacity: 1;
+    border-radius: 9999px;
+    background-color: var(--light-green);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 330px;
+    position: relative;
+    box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}

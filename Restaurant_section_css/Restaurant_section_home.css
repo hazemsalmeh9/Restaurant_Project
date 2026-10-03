@@ -1,0 +1,133 @@
+.restaurant_section_page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.back_button {
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: rgba(242, 244, 242, 1);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.restaurant_section_cards {
+    width: 100%;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark-green);
+}
+
+.stages_card {
+    background-color: var(--white-bg);
+    width: 100%;
+    padding: 24px;
+    border-radius: 16px;
+    display: flex;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+    gap: 15px;
+}
+
+.fa-square-plus,
+.fa-share-nodes,
+.fa-handshake {
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color: rgba(238, 246, 244, 1);
+    flex-shrink: 0;
+}
+
+.text_section {
+    text-align: right;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--dark-green);
+}
+
+.heart_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--white-bg);
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(142, 78, 20, 1);
+}
+
+.fa-heart {
+    font-size: 20px;
+}
+
+.ready_to_started_card {
+    background-color: var(--white-bg);
+    width: 100%;
+    border-radius: 16px;
+    padding: 30px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.join_button {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(244, 162, 97, 1);
+    padding: 15px;
+    color: var(--white-bg);
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: 14px;
+}

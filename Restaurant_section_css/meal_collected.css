@@ -1,0 +1,106 @@
+.meal_collected_page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.meal_collected_card {
+    width: 100%;
+    border-radius: 12px;
+    background-color: var(--white-bg);
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+    padding: 20px;
+}
+
+.fa-circle-check {
+    width: 100px;
+    height: 100px;
+    border-radius: 9999px;
+    background-color: var(--light-green);
+    align-items: center;
+    font-size: 45px;
+    padding: 50px;
+    border: solid 18px rgb(239 252 250);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.comment_section {
+    width: 100%;
+    border-radius: 8px;
+    gap: 15px;
+    padding: 20px;
+    background-color: rgba(242, 244, 242, 1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fa-hand-holding-heart {
+    width: 37px;
+    height: 46px;
+    border-radius: 9999px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 18px;
+    padding-left: 8px;
+    background-color: var(--side-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+span {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: rgba(25, 28, 27, 1);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.return_reservations {
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--light-green);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: var(--white-bg);
+    padding: 15px;
+}
+
+.add_new_meal {
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px var(--light-green);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: var(--light-green);
+    padding: 15px;
+}

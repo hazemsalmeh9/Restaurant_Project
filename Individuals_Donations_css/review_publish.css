@@ -1,0 +1,119 @@
+.review_publish_page {
+    padding: 20px;
+}
+
+.review_donation {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.back_button {
+    border: none;
+    background-color: rgba(236, 238, 237, 1);
+    width: 45px;
+    height: 45px;
+    opacity: 1;
+    border-radius: 9999px;
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.vegetables_fruits_card {
+    background-color: var(--white-bg);
+    width: 100%;
+    border-radius: 12px;
+    border: solid 1px rgba(236, 238, 237, 1);
+    padding: 24px;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+    margin-bottom: 30px;
+
+}
+
+.vegetables_fruits_card h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--dark-green);
+    line-height: 2;
+}
+
+.fresh_food {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background-color: rgba(236, 238, 237, 1);
+    width: 100px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.fa-utensils {
+    font-size: 12px;
+}
+
+.fresh_food h3 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--dark-green);
+    margin-bottom: 5px;
+}
+
+.vegetables_fruits_card p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pickup_location {
+    display: flex;
+    gap: 5px;
+}
+
+.fa-location-dot {
+    margin-top: 5px;
+}
+
+.location_img {
+    border: solid 3px rgba(230, 233, 231, 1);
+    width: 100%;
+    padding-top: 4.01px;
+    border-radius: 8px;
+    height: 150px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.edit_button {
+    width: 100%;
+    padding-top: 16px;
+    padding-right: 130.83px;
+    padding-bottom: 16px;
+    padding-left: 130.83px;
+    border-radius: 8px;
+    border: solid 1px var(--dark-green);
+    color: var(--dark-green);
+    font-family: Tajawal;
+    font-weight: 700;
+    font-size: 20px;
+
+}

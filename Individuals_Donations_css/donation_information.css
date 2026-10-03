@@ -1,0 +1,220 @@
+.text_section {
+    padding-top: 48px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.text_section .green_back {
+    width: 195px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    border-radius: 9999px;
+    background-color: var(--light-green);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: var(--white-bg);
+    margin-bottom: 20px;
+}
+
+.text_section h1 {
+    font-weight: 700;
+    font-size: 26px;
+    width: 230px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.text_section p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    width: 362px;
+    margin-bottom: 40px;
+}
+
+.text_section .orange_back {
+    width: 156px;
+    border-radius: 9999px;
+    background-color: var(--side-color);
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+    color: var(--white-bg);
+    font-family: Tajawal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
+
+.four_card_section {
+    text-align: center;
+    gap: 40px;
+}
+
+.four_card_section h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--dark-green);
+}
+
+.four_card_section p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.four_card_section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px 0;
+}
+
+.top_two_section {
+    margin-top: 30px;
+}
+
+.top_two_section,
+.bottom_two_section {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 16px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 220px;
+}
+
+.food_stuffs,
+.packaged_foods,
+.household_items,
+.household_recycle {
+    background-color: var(--white-bg);
+    border-radius: 16px;
+    border: solid 2px rgba(236, 238, 237, 1);
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+    padding: 30px;
+    width: 100%;
+}
+
+.fa-utensils,
+.fa-recycle {
+    background-color: rgba(111, 175, 166, 0.2);
+    border-radius: 100%;
+    font-size: 25px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.fa-bag-shopping,
+.fa-box {
+    background-color: rgba(255, 171, 105, 0.2);
+    border-radius: 100%;
+    font-size: 25px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.four_card_section h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--dark-green);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.how_it_works_card {
+    width: 398px;
+    height: 100%;
+    padding: 35px;
+    gap: 10px;
+    border-radius: 24px;
+    border: solid 2px rgba(236, 238, 237, 1);
+    background-color: var(--white-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.how_it_works_card h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--dark-green);
+    margin-top: 5px;
+}
+
+.how_it_works_card h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.how_it_works_card p {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(63, 73, 71, 1);
+    margin-bottom: 30px;
+}
+
+.fa-square-plus {
+    border-radius: 100%;
+    font-size: 30px;
+    width: 74px;
+    height: 74px;
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: solid 4px var(--white-bg);
+    background-color: rgba(242, 244, 242, 1);
+}
+
+.fa-share-nodes {
+    border-radius: 100%;
+    font-size: 30px;
+    width: 74px;
+    height: 74px;
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: solid 4px var(--white-bg);
+    background-color: var(--light-green);
+}
+
+.fa-hand-holding-heart {
+    border-radius: 100%;
+    font-size: 30px;
+    width: 74px;
+    height: 74px;
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: solid 4px var(--white-bg);
+    background-color: var(--dark-green);
+}
