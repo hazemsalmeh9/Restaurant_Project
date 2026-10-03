@@ -1,0 +1,152 @@
+
+
+.volunteer-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 20px 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0; 
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: var(--dark-green);
+}
+
+.header h5 {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+    margin: 40px 0;
+}
+
+.info h2 {
+    font-size: 22px;
+    color: var(--dark-green);
+}
+
+.box {
+    display: flex;
+    gap: 0 15px;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px 40px;
+    transition: all ease .6s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.35);
+}
+
+.box .logo {
+    background-color: #eee;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 12px;
+    max-height: fit-content;
+    align-self: center;
+}
+
+.box .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.box .texts h5 {
+    font-size: 20px;
+}
+.box .texts h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    padding: 0 25px;
+    align-items: center;
+}
+
+.join h5:nth-of-type(1) {
+    color: var(--dark-green);
+    font-size:30px;
+}
+
+.join h5:nth-of-type(2) {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.join a {
+    background-color: rgba(244, 162, 97, 1);
+    color: white;
+    font-size: 20px;
+    border-radius: 999px;
+    width: 75%;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px 0px rgba(244, 162, 97, 0.3);
+    transition: all ease .6s;
+}
+
+.join a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px 0px rgba(244, 162, 97, 1);
+}
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    align-items: center;
+}
+
+footer p {
+    color: var(--dark-green);
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 10px;
+}
+
+footer ul li {
+    font-weight: 400;
+    cursor: pointer;
+    transition: all ease .6s;
+}
+
+footer ul li:hover {
+    transform: translateY(-2px);
+    color: var(--dark-green);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Beneficiary_css/Global.css">
+    <link rel="stylesheet" href="../Volunteer_css/join_as_a_volunteer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title></title>
+</head>
+<body style="direction: rtl;">
+    
+
+    <main class="join-page">
+
+        <section class="texts">
+            <h1>انضم إلى فريق المتطوعين</h1>
+            <h5>أخبرنا قليلًا عنك لنساعدك في العثور على فرص مناسبة.</h5>
+        </section>
+
+
+        <form action="">
+            <div class="name box">
+                <label for="fullName">الاسم الكامل</label>
+                <input placeholder="أدخل اسمك الكامل" type="text" id="fullName">
+            </div>
+
+            <div class="number box">
+                <label for="num">رقم الهاتف</label>
+                <input placeholder="09XX XXX XXX" type="number" id="num">
+            </div>
+
+            <div class="city box">
+                <label for="city">المدينة</label>
+                <select required name="city" id="city">
+                    <option value="" disabled selected>اختر مدينتك</option>
+                    <option value="damascus" >دمشق</option>
+                    <option value="homs" >حمص</option>
+                    <option value="aleppo" >حلب</option>
+                    <option value="latkia" >اللاذقية</option>
+                    <option value="idlib" >ادلب</option>
+                    <option value="tartus" >طرطوس</option>
+                    <option value="alhasaka" >الحسكة</option>
+                    <option value="der al-zor" >دير الزور</option>
+                    <option value="hama" >حماة</option>
+                    <option value="al raqqa" >الرقة</option>
+                    <option value="damascus-city-side" >ريف دمشق</option>
+                </select>
+            </div>
+
+            <div class="contact">
+                <h5>وسيلة التواصل المفضلة</h5>
+                <div class="selection">
+                    <div class="first">
+                        <input type="radio" id="wat" name="contact" value="whatsapp" checked>
+                        <label for="wa">واتساب</label>
+                    </div>
+                    <div class="second">
+                        <input type="radio" id="call" name="contact" value="call">
+                        <label for="wa">مكالمة هاتفية</label>
+                    </div>
+                </div>
+            </div>
+            <div class="bio">
+                <label for="bio">نبذة قصيرة عنك</label>
+                <textarea name="bio" placeholder="تحدث عن مهاراتك أو خبراتك السابقة..."></textarea>
+            </div>
+        </form>
+
+        <a href="../Volunteer_html/profile_setup.html">متابعة</a>
+    </main>
+
+</body>
+</html>

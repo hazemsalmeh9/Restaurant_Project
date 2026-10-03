@@ -1,0 +1,223 @@
+
+
+.profile_setup{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    padding: 10px 15px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    align-items: center;
+}
+
+.head  h1 {
+    color: var(--dark-green);
+    font-size: 26px;
+}
+.head  h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.top {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+}
+
+.top h2 {
+    font-size: 20px;
+}
+
+.top .search {
+    border: 1px solid rgba(191, 201, 198, 1);
+    padding: 12px 10px;
+    border-radius: 8px;
+    display: flex;
+    gap: 0 8px;
+}
+
+.top .search input {
+    outline: none;
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+}
+
+.options input {
+    position: absolute;
+    opacity: 0;
+}
+
+.options label {
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    cursor: pointer;
+    background: white;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.options input:checked + label {
+    background: var(--light-green);
+    border-color: var(--light-green);
+    color: white;
+    border-radius: 999px;
+}
+
+.options input:focus-visible + label {
+    outline: 2px solid #222;
+    outline-offset: 3px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px 0;
+    background-color: white;
+    padding: 30px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+}
+
+.mid h2 {
+    font-size: 20px;
+}
+
+.transport {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+/* إخفاء دوائر الـradio */
+.transport input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* شكل كل بطاقة */
+.transport label {
+    width: calc(100%/3);
+    padding: 20px 10px;
+    border: 2px solid #ddd;
+    border-radius: 18px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    text-align: center;
+    transition: all ease .3s;
+    min-height: 130px;
+}
+
+.transport label .logo {
+    font-size: 36px;
+    color: #bbb;
+    transition: all ease .3s;
+}
+
+.transport label span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* البطاقة المختارة */
+.transport input:checked + label {
+    border-color: #256861;
+    background-color: var(--green-bg);
+    width: 45%;
+}
+
+.transport input:checked + label .logo {
+    color: #256861;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.lower .box {
+    display: flex;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid rgba(191, 201, 198, 1);
+    align-items: center;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+    gap: 0 15px;
+}
+
+.lower .box h5:nth-of-type(1) {
+    font-weight: 400;
+    font-size: 16px;
+}
+.lower .box h5:nth-of-type(2) {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(63, 73, 71, 1);
+}
+
+.lower .box input {
+    opacity: 0;
+    position: absolute;
+}
+
+.lower .box label {
+    border: 1px solid rgba(191, 201, 198, 1);
+    width: 20px;
+    height: 20px;
+}
+
+.lower .tick {
+    display: none;
+    font-size: 26px;
+}
+
+input:checked + label .tick {
+    display: inline-block;
+}
+
+.lower .box input:checked +  label  {
+   border: none;
+}
+
+a {
+    background-color: var(--light-green);
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 22px;
+    transition: all ease .4s;
+    margin: 30px 0;
+}
+
+a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 20px 0px var(--light-green);
+}

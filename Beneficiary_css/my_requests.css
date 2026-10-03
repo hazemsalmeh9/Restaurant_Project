@@ -1,0 +1,130 @@
+
+
+.my-requests {
+    display: flex;
+    flex-direction: column ;
+    gap: 20px 0;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    gap: 0 10px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.tabs::after {
+    content: "";
+    width: 100%;
+    border-bottom: 1px rgba(0, 0, 0, 0.162) solid;
+    position: absolute;
+    bottom: 0;
+}
+
+.tabs button {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tabs button:nth-of-type(1) {
+    border-bottom: solid 1px rgba(37, 104, 97, 1);
+    color: var(--dark-green);
+}
+
+.box {
+    display: flex;
+    gap: 45px 0;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.box .up {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.box .up::after {
+    content: "";
+    width: 100%;
+    border-bottom: 1px rgba(0, 0, 0, 0.162) solid;
+    position: absolute;
+    bottom: -20px;
+}
+
+.box .up .logo {
+    background-color: rgba(242, 244, 242, 1);
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 6px;
+    height: fit-content;
+}
+
+.box .up .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.box .up .texts h5:nth-of-type(1) {
+    font-size: 22px;
+}
+
+.box .up .texts h5:nth-of-type(2) {
+    display: flex;
+    gap: 0 5px;
+    align-items: center;
+}
+
+.box .up .texts h5 span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.box .up .ready {
+    background-color: rgba(111, 175, 166, 0.2);
+    border-radius: 10px;
+    padding: 3px;
+    height: fit-content;
+}
+
+.box .up .ready-2 {
+    background-color: rgba(255, 171, 105, 0.2);
+    border-radius: 10px;
+    padding: 3px;
+    height: fit-content;
+}
+
+.box .up .ready span,
+.box .up .ready-2 span{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.box .up .circle {
+    font-size: 8px;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower h5 {
+    font-weight: 300;
+}
+
+.lower .det {
+    display: flex;
+    align-items: center;
+    gap: 0 3px;
+}
+
+.lower h5 a {
+    color: var(--dark-green);
+    font-size: 15px;
+}
+

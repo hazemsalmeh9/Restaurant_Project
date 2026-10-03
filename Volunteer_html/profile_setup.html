@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Beneficiary_css/Global.css">
+    <link rel="stylesheet" href="../Volunteer_css/profile_setup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Profile Set-Up</title>
+</head>
+<body style="direction: rtl;">
+    
+
+
+    <main class="profile_setup">
+        <div class="head">
+            <h1>كيف يمكنك المساعدة؟</h1>
+            <h5>أخبرنا المزيد عن تفضيلاتك لنوجهك للفرص المناسبة.</h5>
+        </div>
+        <section class="top">
+            <h2>المناطق التي يمكنك المساعدة فيها</h2>
+
+            <div class="search">
+                <i class="fa-solid fa-location-dot" style="color: rgb(111, 121, 119);"></i>
+                <input placeholder="ابحث عن منطقة..." type="text">
+            </div>
+
+            <div class="options">
+                <input  type="checkbox" name="location-1" id="loc-1" >
+                <label for="loc-1">دمشق القديمة</label>
+
+                <input type="checkbox" name="location-2" id="loc-2">
+                <label for="loc-2">المزة</label>
+
+                <input type="checkbox" name="location-3" id="loc-3">
+                <label for="loc-3">البرامكة</label>
+
+                <input type="checkbox" name="location-4" id="loc-4">
+                <label for="loc-4">كفرسوسة</label>
+            </div>
+
+        </section>
+
+
+        <section class="mid">
+            <h2>وسيلة التنقل</h2>
+            <div class="transport">
+                <input type="radio" name="mode" id="walking" checked>
+                <label for="walking">
+                <i class="logo fa-solid fa-person-walking"></i>
+                <span>سيرًا على الأقدام</span>
+                </label>
+
+                <input type="radio" name="mode" id="car">
+                <label for="car">
+                <i class="logo fa-solid fa-car"></i>
+                <span>سيارة</span>
+                </label>
+
+                <input type="radio" name="mode" id="other">
+                <label for="other">
+                <i class="logo fa-solid fa-motorcycle"></i>
+                <span>وسيلة أخرى</span>
+                </label>
+            </div>
+        </section>
+
+
+        <section class="lower">
+            <h2>الأوقات المتاحة</h2>
+            <div class="box">
+                <input type="checkbox" id="morning">
+                <label for="morning">
+                    <i class=" tick fa-solid fa-square-check" style="color: rgb(37, 104, 97);"></i>
+                </label>
+                <div class="texts">
+                    <h5>صباحاً</h5>
+                    <h5>8:00 ص - 12:00 م</h5>
+                </div>
+            </div>
+
+            <div class="box">
+                <input type="checkbox" id="afternoon">
+                <label for="afternoon">
+                    <i class="tick fa-solid fa-square-check" style="color: rgb(37, 104, 97);"></i>
+                </label>
+                <div class="texts">
+                    <h5>بعد الظهر</h5>
+                    <h5>12:00 م - 4:00 م</h5>
+                </div>
+            </div>
+
+            <div class="box">
+                <input type="checkbox" id="evening">
+                <label for="evening">
+                    <i class="tick fa-solid fa-square-check" style="color: rgb(37, 104, 97);"></i>
+                </label>
+                <div class="texts">
+                    <h5>مساءً</h5>
+                    <h5>4:00 م - 8:00 م</h5>
+                </div>
+            </div>
+
+        </section>
+
+        <a href="../Volunteer_html/available_opport.html">حفظ والمتابعة</a>
+    </main>
+
+</body>
+</html>

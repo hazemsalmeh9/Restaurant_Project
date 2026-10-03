@@ -6,6 +6,10 @@
     margin-right: 15px;
 }
 
+.main_content {
+    width: 100%;
+}
+
 h1 {
     text-align: center;
     font-weight: 400;
@@ -17,7 +21,7 @@ h1 {
 
 .donation_address {
     margin-right: 15px;
-    padding-left: 20px;
+    width: 100%;
 }
 
 h2 {
@@ -72,7 +76,7 @@ h2 {
 
 .description_donation {
     margin-right: 15px;
-    padding-left: 20px;
+    width: 100%;
 }
 
 .donation_textarea {

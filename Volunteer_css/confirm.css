@@ -1,0 +1,196 @@
+
+.confirm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px 0;
+    padding: 10px 15px;
+}
+
+.confirm .header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    align-items: center;
+}
+
+.confirm .header h1 {
+    color: var(--dark-green);
+    font-size: 26px;
+}
+
+.confirm .header h5 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(63, 73, 71, 1);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+    gap: 20px 0;
+    background-color: rgba(191, 201, 198, 0.3);
+    width: 90%;
+    margin-top: 30px;
+    border: 1px solid rgba(191, 201, 198, 0.3)
+}
+
+.box .row {
+    display: flex;
+    gap: 0 20px;
+}
+
+.box .row .texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.box .row .logo-1 {
+    font-size: 26px;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: rgba(111, 175, 166, 0.2);
+}
+
+.box .row .logo-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    padding: 5px 18px;
+    border-radius: 50%;
+    background-color: rgba(111, 175, 166, 0.2);
+}
+
+.box .row .texts h6 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.box .row .texts h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+.confirm > h2 {
+    color: var(--dark-green);
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.confirm > a:nth-of-type(1) {
+    background-color: var(--dark-green);
+    color: white;
+    width: 90%;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 0px 2px 8px 0px rgba(37, 104, 97, 0.2);
+}
+
+.confirm > a:nth-of-type(2) {
+    color: var(--dark-green);
+    width: 90%;
+    padding: 20px 0;
+    text-align: center;
+    border: 2px solid var(--dark-green);
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* overlay styles  */
+
+.conf-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 50px 20px;
+    gap: 10px 0;
+    transform: translateY(100%);
+    transition: all ease .3s;
+    visibility: hidden;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.conf-modal.open{
+    transform: translateY(0);
+    visibility: visible;
+
+}
+
+.conf-modal .texts  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 3px 0;
+}
+
+.conf-modal i  {
+    font-size: 40px;
+    background-color: var(--light-green);
+    border-radius: 50%;
+    padding: 18px;
+    border: 20px solid #fefefeb4;
+}
+
+.conf-modal .texts h2 {
+    font-size: 24px;
+    color: var(--dark-green);
+}
+.conf-modal .texts h3 {
+    font-size: 20px;
+    color: var(--light-green);
+}
+.conf-modal .texts p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.conf-modal a:nth-of-type(1) {
+    background-color: rgba(244, 162, 97, 1);
+    padding: 20px 0;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.conf-modal a:nth-of-type(2) {
+    padding: 20px 0;
+    font-weight: 500;
+    border: 1px solid var(--dark-green);
+    color: var(--dark-green);
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.706);
+    backdrop-filter: blur(1px);
+    transition: all ease .3s;
+    opacity: 0;
+}
+
+
+
+/* overlay styles  */

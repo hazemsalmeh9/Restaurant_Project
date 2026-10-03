@@ -1,0 +1,241 @@
+
+
+
+.pickup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px 0;
+    padding: 10px 15px;
+}
+
+.pickup .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pickup .header h1 {
+    flex: 1;
+    text-align: center;
+    color: var(--dark-green);
+}
+
+.header .logo-1 {
+    font-size: 24px;
+}
+
+.pickup .steps {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 20px 15px;
+    width: 100%;
+}
+
+.steps .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px 0;
+    position: relative;
+}
+
+.steps .step h5 {
+    font-weight: 400;
+}
+
+.steps .take h5 {
+    font-weight: 800;
+    color: var(--dark-green);
+}
+
+.steps .line::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    border: 1px solid rgba(91, 91, 91, 0.621);
+    border-radius: 2px;
+    bottom: 36px;
+    left: -50px;
+}
+.steps .line-1::after {
+    border: 1px solid var(--light-green);
+    width: 60px;
+    left: -60px;
+}
+
+.steps .logo-ac{
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 15px;
+    background-color: var(--light-green);
+    width: fit-content;
+}
+.steps .logo-t{
+    padding: 13px;
+    border-radius: 50%;
+    font-size: 15px;
+   border: 2px solid var(--light-green);
+    width: fit-content;
+}
+
+.steps .logo-2 {
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(225, 227, 225, 1);
+    width: fit-content;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    margin-bottom: 40px;
+}
+
+.texts h2{
+    color: var(--dark-green);
+    font-size: 30px;
+}
+.texts h6{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 20px 0;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.box .head {
+    display: flex;
+    gap: 0 15px;
+    align-items: center;
+}
+
+.box .head .logo-3 {
+    font-size: 25px;
+    background-color: rgba(111, 175, 166, 0.1) ;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.box .head .texts-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.box .head .texts-2 h3 {
+    font-size: 22px;
+    color: var(--dark-green);
+}
+.box .head .texts-2 h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box .loc {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(225, 227, 225, 1);
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box .loc::after{
+    content: "";
+    bottom: -30px;
+    width: 100%;
+    position: absolute;
+    border: 1px solid rgba(225, 227, 225, 1);
+}
+
+.box .loc a {
+    background-color: white;
+    display: flex;
+    gap: 0 8px;
+    border-radius: 999px;
+    padding: 10px 15px;
+    align-items: center;
+    font-size: 16px;
+    transition: all ease .6s;
+}
+
+.box .loc a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.box .loc a h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-green);
+}
+
+.box .loc .logo-4 {
+    font-size: 20px;
+}
+
+.box .lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .lower .right ,
+.box .lower .left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0;
+}
+
+.box .lower .right h6 ,
+.box .lower .left h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box .lower .right h4 ,
+.box .lower .left h4 {
+    font-size: 24px;
+    display: flex;
+    gap: 0 5px;
+    align-items: center;
+}
+
+.pickup > a:nth-of-type(1) {
+    background-color: var(--light-green);
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.pickup > a:nth-of-type(2) {
+    border: solid 2px var(--light-green);
+    padding: 10px 0;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--dark-green);
+}

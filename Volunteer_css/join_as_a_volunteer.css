@@ -1,0 +1,154 @@
+
+body {
+    padding: 20px;
+}
+
+.join-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    gap: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.05);
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texts h1 {
+    font-size: 26px;
+    color: var(--dark-green);
+}
+
+.texts h5 {
+    dominant-baseline: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    width: 100%;
+    padding: 0 20px;
+}
+
+form .box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+form .box label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+form .box input {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.194);
+    border-radius: 8px;
+}
+form .box select {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.194);
+    border-radius: 8px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    transform: scale(0);
+}
+
+input[type="radio"]:checked {
+    background-color: var(--light-green);
+    border-color: var(--light-green) ;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+.contact {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.selection {
+    width: 100%;
+    display: flex;
+    gap: 0 15px;
+    margin-top: 10px;
+}
+
+.selection .first,
+.selection .second {
+    display: flex;
+    gap: 0 10px ;
+}
+
+.selection .first label,
+.selection .second label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bio {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.bio label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bio textarea {
+    resize: none;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.194);
+}
+
+
+a {
+    background-color: var(--light-green);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    font-size: 22px;
+    transition: all ease .6s;
+}
+
+a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 20px 0px var(--light-green);
+}
