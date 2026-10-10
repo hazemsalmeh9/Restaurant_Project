@@ -140,3 +140,66 @@ h2 {
 .donation_cards_opacity {
     opacity: 50%;
 }
+
+
+@media (min-width: 1024px) {
+    .my_donation_page {
+        padding: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my_donation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        gap: 500px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .plus_icon {
+        width: 58px;
+        height: 58px;
+        font-size: 22px;
+    }
+
+    .green_backg {
+        font-size: 20px;
+    }
+
+    .white_backg {
+        font-size: 20px;
+    }
+
+    .my_donation_cards {
+        width: 40%;
+    }
+
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .bottom_section p {
+        font-size: 16px;
+
+    }
+
+    .view_details {
+        font-size: 16px;
+    }
+
+}

@@ -100,3 +100,38 @@ h3 {
     align-items: center;
     margin-bottom: 15px;
 }
+
+
+@media(min-width:1024px) {
+
+    .donation_completed_page {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: var(--white-bg);
+        border-radius: 12px;
+        padding: 24px;
+        width: 30%;
+        margin: 5% auto;
+    }
+
+    .donation_explanation {
+        padding: 10px;
+
+    }
+
+    .fa-hand-holding-heart {
+        width: 45px;
+        height: 55px;
+        font-size: 25px;
+
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+
+}

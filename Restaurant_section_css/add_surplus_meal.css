@@ -123,3 +123,68 @@ span,
     color: var(--white-bg);
     backdrop-filter: blur(12px)
 }
+
+@media(min-width:1024px) {
+    .add_surplus_meal_page {
+        padding: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .back_button {
+        font-size: 40px;
+    }
+
+    .add_surplus_meal_card {
+        width: 40%;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .custom_input,
+    .custom_meal,
+    .custom_time,
+    .custom_location {
+        font-size: 18px;
+        color: rgba(63, 73, 71, 0.6);
+        padding: 15px;
+    }
+
+    .custom_meal {
+        padding-right: 60px;
+    }
+
+    .custom_location {
+        padding-right: 40px;
+    }
+
+    .custom_time {
+        padding-right: 40px;
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 18px;
+
+    }
+
+
+    span,
+    .fa-clock,
+    .fa-location-dot {
+        font-size: 20px;
+    }
+
+    .additional_notes textarea {
+        font-size: 18px;
+    }
+
+    .serving_meal {
+        font-size: 22px;
+        width: 40%;
+        flex-shrink: 0;
+    }
+}

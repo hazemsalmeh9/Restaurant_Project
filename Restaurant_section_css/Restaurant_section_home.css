@@ -131,3 +131,59 @@ h5 {
     font-weight: 500;
     font-size: 14px;
 }
+
+@media(min-width:1024px) {
+    .restaurant_section_page {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .back_button {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .restaurant_section_cards {
+        width: 40%;
+        gap: 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .fa-square-plus,
+    .fa-share-nodes,
+    .fa-handshake {
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .fa-heart {
+        font-size: 25px;
+    }
+
+
+    h5 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .join_button {
+        font-size: 16px;
+    }
+}

@@ -153,3 +153,93 @@ h1 {
     font-weight: 400;
     font-size: 12px;
 }
+
+
+@media (min-width: 1024px) {
+    .donation_requested_page {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fa-handshake {
+        font-size: 60px;
+        width: 84px;
+        height: 84px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+
+    .your_donation_successfully p {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    .vegetable_box_card {
+        width: 40%;
+        gap: 16px;
+        padding: 24px;
+        margin: 0 auto;
+    }
+
+    .fa-box-archive {
+        width: 74px;
+        height: 74px;
+        font-size: 35px;
+    }
+
+
+    .text_section h2 {
+        font-size: 24px;
+    }
+
+    .fresh_food p {
+        font-size: 16px;
+    }
+
+    .fa-shapes {
+        font-size: 18px;
+    }
+
+    .pickup_location {
+        align-items: center;
+    }
+
+    .fa-location-dot,
+    .fa-clock {
+        font-size: 22px;
+    }
+
+    .pickup_location p {
+        font-size: 18px;
+        text-align: right;
+    }
+
+    .pickup_location h3 {
+        font-size: 18px;
+    }
+
+    .view_details button {
+        width: 40%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 20px;
+        margin: 30px auto;
+    }
+
+    .return_home button {
+        width: 40%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border: solid 2px var(--light-green);
+        font-size: 20px;
+    }
+
+    .beneficiary_details {
+        font-size: 16px;
+    }
+}

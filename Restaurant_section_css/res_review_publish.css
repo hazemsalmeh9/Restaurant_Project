@@ -130,3 +130,59 @@ h6 {
     font-size: 20px;
     display: block;
 }
+
+@media (min-width:1024px) {
+
+    .back_button {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+
+    }
+
+    .review_publish_card {
+        width: 40%;
+    }
+
+    .fa-utensils,
+    .fa-box-archive,
+    .fa-clock,
+    .fa-location-dot {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 18px;
+
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    .confirm_publication {
+        font-size: 22px;
+        width: 40%;
+    }
+
+    .edit_details {
+        width: 40%;
+        font-size: 22px;
+    }
+}
