@@ -239,3 +239,71 @@
     border-radius: 8px;
     color: var(--dark-green);
 }
+
+@media (min-width: 1024px) {
+    .pickup {
+        width: 50%;
+        margin: 0 auto;
+        max-width: 650px;
+        margin-top: 40px;
+    }
+
+    .steps .step h5 {
+        font-size: 18px;
+    }
+
+    .texts h2 {
+        font-size: 35px;
+    }
+    
+    .texts h6 {
+        font-size: 20px;
+    }
+
+    .box .head .logo-3 {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .box .head .texts-2 h3 {
+        font-size: 30px;
+    }
+
+    .box .head .texts-2 h5 {
+        font-size: 18px;
+    }
+
+    .box .loc .logo-4 {
+        font-size: 24px;
+    }
+
+    .box .loc a h6 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .box .lower .right h6, .box .lower .left h6 {
+        font-size: 18px;
+    }
+
+    .box .lower .right h4, .box .lower .left h4 {
+        font-size: 28px;
+    }
+
+    .pickup > a:nth-of-type(1) {
+        font-size: 25px;
+        transition: all ease .6s;
+    }
+    
+    .pickup > a:nth-of-type(2) {
+        font-size: 25px;
+        transition: all ease .4s;
+    }
+
+    .pickup > a:nth-of-type(1):hover , .pickup > a:nth-of-type(2):hover {
+        transform: translateY(-2px);
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.223);
+    }
+
+}
+

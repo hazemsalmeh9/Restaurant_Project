@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 20px 0;
     padding: 20px;
+    align-items: center;
 }
 
 .header {
@@ -105,3 +106,16 @@
     border-radius: 999px;
     padding: 5px 15px;
 }
+
+@media (min-width: 1024px) {
+    .upper-box {
+        width: 50%;
+    }
+
+    .upper-box a {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+}
+

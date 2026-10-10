@@ -1,5 +1,6 @@
 
 
+
 .meal-det {
     margin-top: 40px;
     display: flex;
@@ -59,7 +60,7 @@
     text-align: center;
     padding: 20px 0;
     border-radius: 6px;
-    margin-top: 30px;
+    margin-top: 5px;
     border: none;
     cursor: pointer;
     color: white;
@@ -69,7 +70,6 @@
 .pop-up {
     width: 100%;
 }
-
 
 .pop-up .modal-content {
     background-color: white;
@@ -127,3 +127,20 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media (min-width: 1024px) {
+    .box {
+        width: 50%;
+    }
+    .meal-det button {
+        width: 50%;
+    }
+    .pop-up .modal-content {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .meal-det {
+        align-items: center;
+    }
+}
+

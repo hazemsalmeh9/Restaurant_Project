@@ -3,14 +3,16 @@
 
 .meals {
     display: flex;
-    flex-direction: column;
     gap: 30px 0;
-    align-items: center;
     padding: 10px 30px;
+    width: 100%;
+    flex-direction: column;
 }
 
-.meals .upper {
-    align-self: flex-start;
+.upper {
+    width: fit-content;
+    margin: 40px auto;
+    text-align: center;
 }
 
 .upper h1 {
@@ -83,6 +85,8 @@
     width: fit-content;
     border-radius: 10px;
     padding: 3px;
+    display: flex;
+    gap: 0 8px;
 }
 
 .box .mid {
@@ -107,4 +111,57 @@
     text-align: center;
     color: var(--dark-green);
     border: 1px var(--dark-green) solid;
+}
+
+
+@media (min-width: 1024px) {
+    .meals {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        width: 100%;
+        gap: 25px;
+    }
+
+    .box {
+        width: calc((100% - 25px) / 2);
+        min-width: 0;
+    }
+
+    .box .up .texts h5 {
+        font-size: 18px;
+    }
+
+    .box .up .logo {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .box .up .texts h3 {
+        font-size: 24px;
+    }
+
+    .box .mid {
+        gap: 0 40px;
+    }
+
+    .box .mid h5 {
+        font-size: 15px;
+    }
+
+    .box a {
+        font-size: 18px;
+        font-weight: 600;
+        border: 2px var(--dark-green) solid;
+    }
+
+    .upper h1 {
+        font-size: 34px;
+    }
+
+    .upper h5 {
+        font-size: 20px;
+        text-align: center;
+    }
 }

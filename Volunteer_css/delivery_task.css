@@ -256,3 +256,60 @@
     box-shadow: 0px 4px 20px 0px rgba(63, 74, 72, 0.15);
 }
 
+@media (min-width: 1024px) {
+    .del-tak {
+        max-width: 700px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .steps .step h5 {
+        font-size: 18px;
+    }
+
+    .box .head h2 {
+        font-size: 35px;
+    }
+
+    .box .head .est {
+        font-size: 25px;
+    }
+
+    .box .est h5 {
+        font-size: 20px;
+    }
+
+    .box .det i {
+        font-size: 35px;
+        padding: 24px;
+    }
+
+    .box .cont .texts h5, .box .dest .texts h5 {
+        font-size: 20px;
+    }
+
+    .box .cont .texts h2 {
+        font-size: 28px;
+    }
+
+    .box .dest .texts h2 {
+        font-size: 24px;
+    }
+
+    .box .dest .texts a {
+        font-size: 20px;
+    }
+
+    .box .note i {
+        font-size: 28px;
+    }
+
+    .box .note .texts h5 {
+        font-size: 20px;
+    }
+
+    .box .note .texts h6 {
+        font-size: 24px;
+    }
+}
+

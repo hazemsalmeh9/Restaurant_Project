@@ -110,6 +110,7 @@
 .transport input {
   position: absolute;
   opacity: 0;
+  visibility: hidden;
 }
 
 /* شكل كل بطاقة */
@@ -190,6 +191,7 @@
     border: 1px solid rgba(191, 201, 198, 1);
     width: 20px;
     height: 20px;
+    border-radius: 4px;
 }
 
 .lower .tick {
@@ -220,4 +222,59 @@ a {
 a:hover {
     transform: translateY(-3px);
     box-shadow: 0px 4px 20px 0px var(--light-green);
+}
+
+
+@media (min-width: 1024px) {
+    .profile_setup {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 40px;
+        max-width: 650px;
+    }
+
+    .head h1 {
+        font-size: 35px;
+    }
+
+    .head h5 {
+        font-size: 18px;
+    }
+
+    .top h2 {
+        font-size: 24px;
+    }
+
+    .options label {
+        font-size: 17px;
+    }
+
+    .mid h2 {
+        font-size: 24px;
+    }
+
+    .mid {
+        padding: 30px 20px;
+    }
+
+    .transport label span {
+        font-size: 15px;
+    }
+
+    .lower .box h5:nth-of-type(1) {
+        font-size: 20px;
+    }
+
+    .lower .box h5:nth-of-type(2) {
+        font-size: 16px;
+    }
+
+    .lower .box label {
+        width: 30px;
+        height: 30px;
+    }
+
+    input:checked + label .tick {
+        font-size: 35px;
+    }
 }

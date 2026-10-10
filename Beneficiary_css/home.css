@@ -86,4 +86,28 @@ body {
 .lower a {
     color: var(--dark-green);
     border: 1px var(--dark-green) solid;
-} 
+}
+
+@media (min-width: 1024px) {
+    .show-box {
+        width: 40%;
+    }
+    .show-box h5:nth-of-type(1) {
+        font-size: 24px;
+    }
+    .show-box h5:nth-of-type(2) {
+        font-size: 18px;
+    }
+    .show-box a {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .show-box .fork {
+        font-size: 26px;
+        padding: 16px;
+    }
+    .show-box .present {
+        font-size: 26px;
+        padding: 16px;
+    }
+}

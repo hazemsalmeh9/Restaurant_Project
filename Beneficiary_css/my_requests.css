@@ -1,5 +1,6 @@
 
 
+
 .my-requests {
     display: flex;
     flex-direction: column ;
@@ -12,6 +13,8 @@
     gap: 0 10px;
     position: relative;
     padding-bottom: 20px;
+    padding-right: 20px;
+    width: fit-content;
 }
 
 .tabs::after {
@@ -67,6 +70,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px 0;
+    align-items: center;
 }
 
 .box .up .texts h5:nth-of-type(1) {
@@ -128,3 +132,76 @@
     font-size: 15px;
 }
 
+@media (min-width: 1024px) {
+
+    .box {
+        width: calc((100% - 30px) / 2);
+    }
+    
+    .box .up .logo {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .box .up .ready {
+        padding: 6px;
+    }
+
+    .box .up .ready-2 {
+        padding: 6px;
+    }
+
+    .box .up .ready-2 span {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .box .up .ready span {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .my-requests {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    body > h1 {
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+
+    .tabs {
+        display: flex;
+        gap: 0 10px;
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+    .tabs button:nth-of-type(1) {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .tabs button:nth-of-type(2) {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .lower h5 {
+        font-weight: 500;
+        font-size: 16px;
+        gap: 0 5px;
+    }
+
+    .tabs::after {
+        width: 0;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+}
