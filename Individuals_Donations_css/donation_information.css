@@ -218,3 +218,110 @@
     border: solid 4px var(--white-bg);
     background-color: var(--dark-green);
 }
+
+
+@media (min-width: 1024px) {
+
+    .text_section .green_back {
+        width: 20%;
+        padding-top: 16px;
+        padding-right: 32px;
+        padding-bottom: 16px;
+        padding-left: 32px;
+        font-size: 20px;
+    }
+
+    .text_section h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .text_section p {
+        font-size: 20px;
+        width: 40%;
+    }
+
+    .text_section .orange_back {
+        width: 15%;
+        font-size: 22px;
+    }
+
+
+    .four_card_section h2 {
+        font-size: 32px;
+    }
+
+    .four_card_section p {
+        font-size: 20px;
+    }
+
+
+    .four_card_section {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .cards_wrapper {
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .cards_wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .top_two_section,
+    .bottom_two_section {
+        display: contents;
+    }
+
+    .food_stuffs,
+    .packaged_foods,
+    .household_items,
+    .household_recycle {
+        flex: 1;
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    .how_it_works_card {
+        width: 98%;
+        height: auto;
+
+    }
+
+    .cards_wrapper_two {
+        display: flex;
+        gap: 0 60px;
+    }
+
+
+    .how_it_works_card h2 {
+        font-size: 28px;
+    }
+
+    .how_it_works_card h4 {
+        font-size: 22px;
+    }
+
+    .how_it_works_card p {
+        font-size: 20px;
+    }
+
+    .add,
+    .share,
+    .benefit {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Individuals_Donations_paje {
+        padding: 20px;
+    }
+
+}

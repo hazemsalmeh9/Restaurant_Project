@@ -48,20 +48,6 @@ h2 {
 
 }
 
-.fa-qrcode {
-    background-color: rgba(242, 244, 242, 0.5);
-    width: 160px;
-    height: 160px;
-    border-radius: 8px;
-    border: dashed 3px rgba(191, 201, 198, 1);
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 60px;
-
-}
-
 .or_section {
     display: flex;
     width: 100%;
@@ -137,4 +123,71 @@ span {
     text-align: center;
     text-decoration-style: solid;
     color: rgba(63, 73, 71, 1);
+}
+
+@media (min-width:1024px) {
+
+    .fa-circle-check {
+        font-size: 60px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .qrcode_card {
+        width: 30%;
+        padding-top: 24px;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-bottom: 48px;
+
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .qrcode {
+        width: 60%;
+    }
+
+    .or_section {
+        width: 40%;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .line {
+        height: 2px;
+    }
+
+    .pickup_code {
+        width: 30%;
+    }
+
+    .input_code {
+        font-size: 20px;
+    }
+
+    .chek_code {
+        font-size: 16px;
+    }
+
+    .go_home {
+        font-size: 18px;
+    }
+
+
+
+
+
+
 }

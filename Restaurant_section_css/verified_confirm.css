@@ -124,3 +124,58 @@ h4 {
     font-size: 18px;
     text-align: center;
 }
+
+@media(min-width:1024px) {
+
+    .chek_card {
+        width: 30%;
+    }
+
+    .fa-circle-check {
+        width: 90px;
+        height: 90px;
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .booking_details {
+        padding: 26px;
+        border: solid 2px rgba(191, 201, 198, 1);
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .fa-box-archive,
+    .fa-utensils {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .delivery_confirmation {
+        font-size: 20px;
+    }
+
+    .cancel {
+        border: solid 2px var(--dark-green);
+        font-size: 20px;
+    }
+
+
+
+}

@@ -104,3 +104,43 @@ span {
     color: var(--light-green);
     padding: 15px;
 }
+
+@media(min-width:1024px) {
+
+    .meal_collected_card {
+        width: 30%;
+    }
+
+    .fa-circle-check {
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .fa-hand-holding-heart {
+        width: 47px;
+        height: 56px;
+        font-size: 22px;
+    }
+
+    span {
+        font-size: 18px;
+    }
+
+    .return_reservations {
+        font-size: 16px;
+    }
+
+    .add_new_meal {
+        font-size: 16px;
+    }
+
+}
