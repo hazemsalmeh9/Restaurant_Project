@@ -168,7 +168,7 @@
         padding: 20px;
     }
 
-    body > h1 {
+    .site-content > h1 {
         margin: 0 auto;
         width: fit-content;
         font-size: 40px;
